@@ -1,0 +1,166 @@
+body {
+  margin: 0 ;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: mintcream;
+
+}
+
+/* * {
+
+  outline: 1px solid #f00 !important;
+} */
+
+.contentArea {
+  width: 305px;
+  height: 100%;
+  margin:0 auto;
+}
+
+.puzzle {
+  width: 300px;
+  height: 300px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: aqua;
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block {
+  width: 75px;
+  height: 75px;
+  border: 1px solid red;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: chartreuse;
+  transition: 0.5s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  position: absolute;
+}
+
+.button1 {
+  width: 130px;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 14px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.button2 {
+    width: 130px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+
+  .button3 {
+    width: 130px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+
+.buttonsContainer {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.volume{
+    cursor:pointer;
+       display: block;
+    width: 60px;
+    height: 60px;
+     
+}
+
+.volume2{
+    cursor:pointer;
+       display: block;
+    width: 60px;
+    height: 60px;
+    display: none;
+     }
+
+
+.movesTime {
+  margin: 0 auto;
+  width: 180px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.otherSizesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 324px;
+  /* position: relative; */
+  font-size: 12px;
+  justify-content: center;
+}
+
+.otherSize {
+  margin-right: 10px;
+}
+
+.frameSizes {
+  margin-right: 10px;
+  text-decoration: underline;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.frameSize {
+  margin: 0 auto;
+  width: 150px;
+  /* position: relative; */
+  /* left: 32%; */
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 410px) {
+  /* .contentArea {
+    width: 300px;
+    margin-left:10px;
+  } */
+/* 
+  .buttonsContainer {
+    width: 370px;
+    margin-left: 10px;
+} */
+
+/* .puzzle{
+  margin-left: -6px;
+} */
+.otherSizesContainer{
+  margin-left: -6px;
+}
+}
